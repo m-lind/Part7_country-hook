@@ -26,7 +26,6 @@ const useCountry = name => {
           setCountry(response);
         })
         .catch(error => {
-          console.log(error);
           setCountry(null);
         });
     }
